@@ -1,0 +1,12 @@
+TakePhoto take a photo
+TakePhoto take a selfie
+TakePhoto take my picture
+
+SecurityModeOn turn on security mode
+SecurityModeOn enter security mode
+SecurityModeOn activate security mode
+SecurityModeOn security mode on
+
+SecurityModeOff turn off security mode
+SecurityModeOff exit security mode
+SecurityModeOff security mode off
