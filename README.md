@@ -8,15 +8,15 @@ Create an Amazon Alexa controlled smart mirror which knows current information a
 ## How it's made
 
 **Hardware**
- +Computer monitor and speakers
- +Two-way mirror
- +Raspberry Pi + WiFi adaptor, camera, microphone, temperature/humidity monitor
++ Computer monitor and speakers
++ Two-way mirror
++ Raspberry Pi + WiFi adaptor, camera, microphone, temperature/humidity monitor
 
 **AWS Services**
- +Alexa Voice Services and Alexa Skills Kit
- +Lambda
- +S3
- +IOT
++ Alexa Voice Services and Alexa Skills Kit
++ Lambda
++ S3
++ IOT
 
 ![alt text](https://github.com/alex-oser/smart-mirror/blob/master/assets/smartmirrorflow.png "Smart Mirror Flow Diagram")
 
