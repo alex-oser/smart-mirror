@@ -18,7 +18,7 @@ Create an Amazon Alexa controlled smart mirror which knows current information a
 +S3
 +IOT
 
-![alt text](https://github.com/alex-oser/smart-mirror/blob/master/assests/smartmirrorflow.png "Smart Mirror Flow Diagram")
+![alt text](https://github.com/alex-oser/smart-mirror/blob/master/assets/smartmirrorflow.png "Smart Mirror Flow Diagram")
 
 ## Webapge development
 
