@@ -8,21 +8,21 @@ Create an Amazon Alexa controlled smart mirror which knows current information a
 ## How it's made
 
 **Hardware**
-+Computer monitor and speakers
-+Two-way mirror
-+Raspberry Pi + WiFi adaptor, camera, microphone, temperature/humidity monitor
+ +Computer monitor and speakers
+ +Two-way mirror
+ +Raspberry Pi + WiFi adaptor, camera, microphone, temperature/humidity monitor
 
 **AWS Services**
-+Alexa Voice Services and Alexa Skills Kit
-+Lambda
-+S3
-+IOT
+ +Alexa Voice Services and Alexa Skills Kit
+ +Lambda
+ +S3
+ +IOT
 
 ![alt text](https://github.com/alex-oser/smart-mirror/blob/master/assets/smartmirrorflow.png "Smart Mirror Flow Diagram")
 
 ## Webapge development
 
-The webpage displaying information on the mirror is hosted on an AWS instance and retrieves information from various free APIs including weather data from http://api.openweathermap.org and news stories from reddit.com. In order to create the mirror effect, the page has a black background with white text displayed so that only the text is able to shine through the two-way mirror.
+The webpage displaying information on the mirror is hosted on an AWS instance and retrieves information from various free APIs including weather data from http://api.openweathermap.org and news stories from https://reddit.com. In order to create the mirror effect, the page has a black background with white text displayed so that only the text is able to shine through the two-way mirror.
 
 ## Alexa Setup
 
@@ -38,4 +38,4 @@ Our Alexa skill is based on another template from Amazon which can be found [her
 
 ## Latency Analysis
 
-One of the primary purposes of this project was to analyze the current state of IoT technolgy by performing latency analysis on AWS services and the complex system needed for this project provided the perfect testing ground. The results of the analysis can be found [here](https://github.com/alex-oser/smart-mirror/LatencyAnalysisReport.pdf).
+One of the primary purposes of this project was to analyze the current state of IoT technolgy by performing latency analysis on AWS services and the complex system needed for this project provided the perfect testing ground. The results of the analysis can be found [here](https://github.com/alex-oser/smart-mirror/blob/master/LatencyAnalysisReport.pdf).
