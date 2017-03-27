@@ -15,8 +15,8 @@ import ssl
 import time
 import boto
 import sys
-AWS_ACCESS_KEY_ID = 'AKIAI2U6AJEUPDZIJMZQ'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 
 bucket_name = 'arivanoserbucket'
 conn = boto.connect_s3(AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)

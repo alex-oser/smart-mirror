@@ -21,21 +21,6 @@ var weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday',
 var monthArray = new Array('January', 'February', 'March', 'April', 
 	'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
 
-$(document).ready( function() {
-	var body = document.getElementsByTagName("body")[0];
-	var height = $(window).height();
-	var width = $(window).width();
-	$(document).ready( function() {
-		$('body').css("width", height + "px");
-		$('body').css("height", width + "px");
-	});
-
-	getNews();
-	getDate();
-	getTime();
-	getWeather();
-});
-
 function getNews() {
 	$.getJSON("https://www.reddit.com/r/worldnews/hot.json?limit=5", function(data) { 
 	response = data['data']['children'];
@@ -100,3 +85,18 @@ function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 }
+
+$(document).ready( function() {
+	var body = document.getElementsByTagName("body")[0];
+	var height = $(window).height();
+	var width = $(window).width();
+	$(document).ready( function() {
+		$('body').css("width", height + "px");
+		$('body').css("height", width + "px");
+	});
+
+	getNews();
+	getDate();
+	getTime();
+	getWeather();
+});
